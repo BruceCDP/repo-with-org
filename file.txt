@@ -1,1 +1,6 @@
 this is a file
+
+git branch -m new-branch main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
